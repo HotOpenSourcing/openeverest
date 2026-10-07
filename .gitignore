@@ -21,7 +21,6 @@ go.work
 
 # editor and IDE paraphernalia
 .idea
-.vscode
 *.swp
 *.swo
 *~
@@ -32,3 +31,5 @@ go.work
 api_tests/node_modules/*
 
 public/dist/
+config.bat
+node_modules
