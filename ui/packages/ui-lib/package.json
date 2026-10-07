@@ -10,9 +10,9 @@
     "format": "prettier .  --write",
     "format-check": "prettier . --check",
     "rm-build-dir": "rm -rf dist",
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "node init && storybook build"
   },
   "main": "dist/esm/index.js",
   "publishConfig": {

@@ -8,7 +8,7 @@
     "format": "prettier .  --write",
     "format-check": "prettier . --check",
     "rm-build-dir": "rm -rf dist",
-    "build": "rollup -c"
+    "build": "node init && rollup -c"
   },
   "publishConfig": {
     "access": "public",

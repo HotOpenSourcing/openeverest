@@ -19,8 +19,8 @@
     "lint-check": "turbo run lint-check",
     "format": "turbo run format",
     "format-check": "turbo run format-check",
-    "build": "turbo run build && turbo run move-build",
-    "build-storybook": "turbo run build-storybook"
+    "build": "node init && turbo run build && turbo run move-build",
+    "build-storybook": "node init && turbo run build-storybook"
   },
   "dependencies": {
     "@changesets/cli": "^2.29.5"

@@ -28,7 +28,7 @@
   },
   "scripts": {
     "rm-build-dir": "rm -rf dist",
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "test": "vitest run",
     "test:watch": "vitest"
   },
